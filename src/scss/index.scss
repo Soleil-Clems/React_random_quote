@@ -1,0 +1,19 @@
+@import "./components/card.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: salmon;
+}

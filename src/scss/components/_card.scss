@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: salmon;
+    width: 30em;
+    padding: 1em;
+    min-height: 10em;
+    row-gap: 1em;
+    border-radius: 7px;
+    transition: "background-color 0.5s";
+    
+    .quoteDiv{
+        display: flex;
+        column-gap: .5em;
+        padding: 1em;
+        justify-content: center;
+        
+        .quote{
+            font-size: 1.5em;
+        }
+    }
+
+    .content{
+        font-size: 1.5em;
+        font-weight: thin;
+
+    }
+
+    .author{
+        text-align: right;
+        font-weight: 100;
+        font-size: 16px;
+    }
+
+    .divBtn{
+        display: flex;
+        justify-content: end;
+        padding: 1em 0;
+
+        button{
+            transition: "background-color 0.5s";
+            background-color:salmon;
+            color:white;
+            padding: 1em;
+            border-radius: 7px;
+            border: solid 1px;
+        }
+    }
+}
